@@ -56,7 +56,8 @@ a{
 
 .title{
     margin-left: 85%;
-    text-decoration: underline;
+    text-decoration: none;
+    font-weight: 700;
 }
 .photo{
     background-image: url("myphoto.png");
@@ -86,7 +87,7 @@ a{
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end 60s;
+    animation: typing 5s steps(40, end), blink-caret .75s step-end 60s;
   }
   
   /* The typing effect */
