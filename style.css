@@ -131,3 +131,12 @@ a{
 .pf{
     font-size: xx-large;
 }
+#insta:hover{
+    transform:translate(-5px)
+}
+#linkedin:hover{
+    transform:translate(-5px)
+}
+#github:hover{
+    transform:translate(-5px)
+}
