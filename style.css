@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(49, 47, 46);
+    background-color: rgb(43, 57, 57);
 }
 .block1{
     margin-top: 50px;
@@ -12,7 +12,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 28px;
-    border-right: 0.5px solid rgb(174, 173, 173);
+    border-right: 0.5px solid rgb(112, 131, 137);
     overflow: hidden;
 }
 .o{
@@ -33,7 +33,7 @@ body{
 }
 .o:hover{
     border: 0.25px solid black;
-    background-color: rgb(65, 63, 61);
+    background-color: rgb(138, 190, 187);
 }
 
 a{
@@ -50,7 +50,7 @@ a{
     display: flex;
     align-items: center;
     
-    background-color: rgb(52, 50, 48);
+    background-color: rgb(38, 66, 71);
     color: white;
 }
 
@@ -132,11 +132,11 @@ a{
     font-size: xx-large;
 }
 #insta:hover{
-    transform:translate(-5px)
+    transform:translate(0,-5px)
 }
 #linkedin:hover{
-    transform:translate(-5px)
+    transform:translate(0,-5px)
 }
 #github:hover{
-    transform:translate(-5px)
+    transform:translate(0,-5px)
 }
