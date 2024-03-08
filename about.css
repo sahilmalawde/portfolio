@@ -1,102 +1,74 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body{
-    background-color: rgb(49, 47, 46);
-    color: aliceblue;
+  background-color: rgb(43, 57, 57);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-.header{
-    
-    align-items: center;
-    width: 15%;
-}
-    
-    .typewriter{
-    color: aliceblue;
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange; /* The typewriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end 60s;
-  }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
-
 p{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: x-large;
-  color: azure;
-}
+  margin: 5px;
+  size: 0.6rem;
+  color: white;
 
-h2{
-  padding-top: 10px;
-  color: orange;
 }
-
-.charts{
+.name{
+  color: aquamarine;
+}
+.start{
   display: flex;
-  justify-content: space-evenly;
-  margin-top: 50px;
-}
-.python{
-  border: 15px solid orange;
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  border-bottom: 15px solid rgb(87, 84, 84) ;
-}
-.c{
-  border: 15px solid orange;
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  border-left-color: rgb(87, 84, 84) ;
-  border-bottom-color: rgb(87, 84, 84) ;
-}
-.html{border: 15px solid orange;
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  
-}
-.css{
-  border: 15px solid orange;
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  border-right-color: rgb(87, 84, 84) ;
-}
-.mysql{
-  border: 15px solid orange;
-  height: 100px;
-  width: 100px;
-  border-radius: 100%;
-  border-bottom-color: rgb(87, 84, 84) ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  margin-top: 250px;
+  margin-bottom: 250px;
+  padding: 50px;
+  animation: changeColor 3s infinite alternate;
+  border-radius: 5%;
+  box-shadow: 0 0 20px aquamarine;
 }
 
-.labels{
-  display: flex;
-  justify-content: space-evenly;
+.kmm{
+  background-color: transparent;
+  color: aqua;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
 }
-.buttons{
-  display: flex;
-  justify-content: space-evenly;
-  margin: 30px;
+.kmm:hover{
+  color:aquamarine;
 }
 
-.btn{
-  border-radius: 50%;
-  background-color: orange;
-  width: 50px;
-  height: 50px;
+@keyframes changeColor {
+  0% {
+    border-color: rgb(239, 158, 158); /* Start with a red border */
+  }
+  50% {
+    border-color: rgb(169, 249, 169); /* Transition to a green border */
+  }
+  100% {
+    border-color: rgb(171, 171, 255); /* End with a blue border */
+  }
 }
+.info1 p{
+  font-size: larger ;
+  gap: 5px;
+
+}
+li{
+  font-size: larger;
+  color: white;
+  gap: 5px;
+}
+.info1{
+  margin-left: 15px;
+}
+.info2{
+  margin-top: 40px;
+}
+
 
