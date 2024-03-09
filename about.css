@@ -54,21 +54,139 @@ p{
     border-color: rgb(171, 171, 255); /* End with a blue border */
   }
 }
+
 .info1 p{
   font-size: larger ;
-  gap: 5px;
+  gap: 15px;
+  margin-bottom: 30px;
 
 }
 li{
   font-size: larger;
   color: white;
-  gap: 5px;
+  gap: 15px;
 }
 .info1{
   margin-left: 15px;
 }
 .info2{
   margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.skills{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.skilltype{
+  padding: 20px;
+  border: 0.5px solid aquamarine;
+  box-shadow: 0 0 10px rgb(79, 79, 249);
+  width: 300px;
+  margin: 50px;
+  height: 350px;
+  background-color: rgb(43, 66, 66);
+}
+.skilltype h1{
+  color:turquoise;
+}
+.skilltype p{
+  font-size: larger;
+}
+.skilltype a{
+  text-decoration: none;
+  color: aqua;
+  font-size: larger;
+  margin-left: 5px;
+}
+
+.skilltype:hover{
+  box-shadow: 0 0 20px blue;
+}
+
+.info3{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#cs{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 20px solid aqua;
+  border-bottom-color:rgb(54, 78, 70) ;
+  border-style:solid;
+  margin-right: 100px;
+  margin-left: 100px;
+  animation: skills 2s ease-out 1;
+  animation-fill-mode: forwards;
+}
+#ps{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 20px solid aqua;
+  border-bottom-color: rgb(54, 78, 70);
+  margin-right: 100px;
+  animation: skills 2s ease-out 1;
+  animation-fill-mode: forwards;
+}
+#tw{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 20px solid aqua;
+  border-bottom-color: rgb(54, 78, 70);
+  margin-right: 100px;
+  animation: skills 2s ease-out 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes skills {
+  0%{
+    border-color: transparent;
+  }
+  50%{
+    border-color: transparent;
+  }
+
+  100%{
+    transform: rotateZ(180deg);
+  }
+  
+}
+.holder{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  font-size: x-large;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  
+}
+.navbar{
+  margin-top: 30px;
+  font-size: x-large;
+  color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+}
+.o{
+  margin: 15px;
+  color: aqua;
+}
+.o i{
+  color: aquamarine;
+}
+
 
 
